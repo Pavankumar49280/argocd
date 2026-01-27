@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: cont1
-        image: kumar49/pavankumar:game
+        image: kumar49/pavankumar:v1
         ports:
           - containerPort: 80
