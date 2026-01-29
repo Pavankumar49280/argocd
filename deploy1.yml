@@ -11,6 +11,8 @@ spec:
   template:
     metadata:
       name: mytemplate
+      labels:
+        env: green
     spec:
       containers:
         - name: cont2
