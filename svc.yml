@@ -6,7 +6,7 @@ metadata:
 spec:
   type: LoadBalancer
   selector:
-    env: blue
+    env: green
   ports:
     - port: 80
       targetPort: 80
